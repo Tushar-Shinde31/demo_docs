@@ -39,7 +39,8 @@ const Home = async() => {
         ></Image>
         
         <AddDocumentBtn
-        
+          userId={clerkUser.id}
+          email={clerkUser.emailAddresses[0].emailAddress}
         />
       </div>
     )}
